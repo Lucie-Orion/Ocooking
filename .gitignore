@@ -1,0 +1,14 @@
+node_modules/
+public/
+.DS_Store
+notes/
+/.vscode
+
+/wp
+/vendor
+
+content/plugins/*
+!content/plugins/ocooking-settings
+
+content/themes/*
+!content/themes/ocooking

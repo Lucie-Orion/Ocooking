@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0e1fa6cd463608c112fb1faf6b765c7",
+    "content-hash": "3dfddb3d4c3ddce3b5ef553cf9432fbd",
     "packages": [
         {
             "name": "composer/installers",
@@ -255,16 +255,16 @@
             "time": "2018-11-09T20:10:38+00:00"
         },
         {
-            "name": "wpackagist-plugin/hello-dolly",
-            "version": "1.6",
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "5.7.12",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/hello-dolly/",
-                "reference": "tags/1.6"
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/5.7.12"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/hello-dolly.1.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.7.12.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -272,19 +272,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/hello-dolly/"
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
         },
         {
-            "name": "wpackagist-plugin/regenerate-thumbnails",
-            "version": "3.1.0",
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.1.1",
             "source": {
                 "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
-                "reference": "trunk"
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.zip?timestamp=1546642223",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -292,7 +292,7 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
             "name": "wpackagist-theme/twentynineteen",
@@ -337,6 +337,26 @@
             "homepage": "https://wordpress.org/plugins/query-monitor/"
         },
         {
+            "name": "wpackagist-plugin/rewrite-rules-inspector",
+            "version": "1.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rewrite-rules-inspector/",
+                "reference": "tags/1.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rewrite-rules-inspector.1.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rewrite-rules-inspector/"
+        },
+        {
             "name": "wpackagist-plugin/simply-show-hooks",
             "version": "1.2.1",
             "source": {
@@ -355,26 +375,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/simply-show-hooks/"
-        },
-        {
-            "name": "wpackagist-plugin/what-the-file",
-            "version": "1.5.4",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/what-the-file/",
-                "reference": "tags/1.5.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/what-the-file.1.5.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/what-the-file/"
         }
     ],
     "aliases": [],
