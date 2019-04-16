@@ -12,12 +12,19 @@ if ( ! defined( 'WPINC' ) ) {
 	exit;
 }
 
-require plugin_dir_path( __FILE__ ) . 'includes/class-post-type-recipe.php';
+define( 'OCOOKING_PLUGIN_PATH', __FILE__ );
+define( 'OCOOKING_PLUGIN_TEXT_DOMAIN', 'ocooking-settings' );
+
+$plugin_dir_path = plugin_dir_path( OCOOKING_PLUGIN_PATH );
+
+require $plugin_dir_path . 'includes/class-post-type-recipe.php';
+
+require $plugin_dir_path . 'includes/load-textdomain.php';
 
 $post_type_recipe = new Post_Type_Recipe();
 
 register_activation_hook(
-	__FILE__,
+	OCOOKING_PLUGIN_PATH,
 	function() use ( $post_type_recipe ) {
 		$post_type_recipe->register_post_type();
 		$post_type_recipe->register_taxonomies();
@@ -27,7 +34,7 @@ register_activation_hook(
 );
 
 register_deactivation_hook(
-	__FILE__,
+	OCOOKING_PLUGIN_PATH,
 	function() {
 		unregister_post_type( Post_Type_Recipe::NAME );
 		unregister_taxonomy( Post_Type_Recipe::TAXONOMY_NAME_INGREDIENT );

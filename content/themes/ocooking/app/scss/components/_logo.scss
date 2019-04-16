@@ -1,0 +1,14 @@
+.logo {
+    color: $color-text;
+
+    &:hover {
+        color: $color-text;
+        text-decoration: none;
+    }
+
+    &::before {
+        @include fa-icon();
+        content: $fa-var-cutlery;
+        margin-right: $gutter / 2;
+    }
+}

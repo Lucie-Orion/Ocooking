@@ -1,0 +1,50 @@
+.sidebar {
+    grid-area: sidebar;
+
+    &__name {
+        font-size: 3rem;
+    }
+
+    &__baseline {
+        font-size: 2rem;
+        margin-bottom: $gutter * 3;
+    }
+
+    &__text {
+        border-bottom: 1px solid darken($color-background-primary, 25%);
+        margin-bottom: $gutter;
+        padding-bottom: $gutter;
+    }
+
+    .menu {
+        margin-bottom: $gutter;
+
+        &__list {
+            &__list-item {
+                &__link {
+                    color: darken($color-background-primary, 25%);
+                    font-size: .9rem;
+                    line-height: 2rem;
+                    text-transform: uppercase;
+                }
+
+                ul {
+                    padding-left: $gutter;
+
+                    li {
+                        line-height: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .recipe-proposal {
+        &__title {
+            color: darken($color-background-primary, 25%);
+            font-size: .9rem;
+            line-height: 2rem;
+            text-transform: uppercase;
+        }
+    }
+}

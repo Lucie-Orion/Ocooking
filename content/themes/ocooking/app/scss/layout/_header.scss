@@ -1,0 +1,28 @@
+.header {
+    align-items: center;
+    background-color: $color-background-secondary;
+    box-shadow: 0 $gutter / 4 $gutter darken($color-background-primary, 25%);
+    display: flex;
+    grid-area: header;
+    height: 3rem;
+    justify-content: space-between;
+    margin-bottom: $gutter * 2;
+    padding: 0 $gutter;
+
+    &__container {
+        align-items: center;
+        display: flex;
+
+        &--start {
+            justify-content: flex-start;
+        }
+
+        &--end {
+            justify-content: flex-end;
+        }
+    }
+
+    .ui-button {
+        margin-left: $gutter / 2;
+    }
+}

@@ -1,0 +1,75 @@
+.home-post {
+    background-color: $color-background-secondary;
+    display: grid;
+    grid: {
+        template: {
+            areas:
+                "title informations"
+                "thumbnail thumbnail"
+                "excerpt ingredients"
+                "read-next type";
+            columns: 60% 40%;
+            rows: auto;
+        }
+    }
+    padding: $gutter * 3 $gutter * 2;
+
+    &__title-author-container {
+        grid-area: title;
+    }
+
+    &__informations-list {
+        border-left: 1px dashed darken($color-background-secondary, 25%);
+        grid-area: informations;
+        list-style: none;
+        margin-bottom: $gutter / 2;
+        padding: $gutter;
+
+        &__item {
+            &__name {
+                font-weight: bold;
+            }
+        }
+    }
+
+    &__thumbnail {
+        grid-area: thumbnail;
+
+        &__image {
+            height: auto;
+            width: 100%;
+        }
+    }
+
+    &__excerpt-container {
+        grid-area: excerpt;
+    }
+
+    &__ingredients {
+        display: flex;
+        grid-area: ingredients;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        &__item {
+            margin: 0 $gutter / 4;
+
+            &:first-child {
+                margin-left: 0;
+            }
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__read-next-container {
+        grid-area: read-next;
+    }
+
+    &__type-container {
+        grid-area: type;
+    }
+}

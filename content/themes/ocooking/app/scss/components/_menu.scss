@@ -1,0 +1,38 @@
+.menu {
+    &__list {
+        align-items: center;
+        display: flex;
+        list-style: none;
+        margin: 0;
+
+        &__list-item {
+            margin: 0 $gutter / 2;
+
+            &__link {
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            ul {
+                list-style: none;
+
+                li {
+                    a {
+                        &:hover {
+                           text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &--vertical {
+        .menu__list {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

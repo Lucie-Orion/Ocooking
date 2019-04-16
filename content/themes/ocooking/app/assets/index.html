@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webpack</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="home">
+  <header class="header">
+    <div class="header__container header__container--start">
+      <a class="logo" href="#">oCooking</a>
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list__list-item">
+            <a class="menu__list__list-item__link" href="#">Au hasard</a>
+          </li>
+          <li class="menu__list__list-item">
+            <a class="menu__list__list-item__link" href="#">Recettes</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__container header__container--end">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list__list-item">
+            <a class="menu__list__list-item__link" href="#"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="menu__list__list-item">
+            <a class="menu__list__list-item__link" href="#"><i class="fa fa-twitter"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <a class="ui-button" href="#"><i class="fa fa-bars"></i></a>
+    </div>
+  </header>
+  <main class="main">
+    <article class="home-post">
+      <div class="home-post__title-author-container">
+        <h2 class="home-post__title">Sandwich de saison</h2>
+        <span class="home-post__author">Préparée par Franck Sallswol</span>
+      </div>
+      <ul class="home-post__informations-list">
+        <li class="home-post__informations-list__item"><span class="home-post__informations-list__item__name">Préparation</span> 30 min.</li>
+        <li class="home-post__informations-list__item"><span class="home-post__informations-list__item__name">Cuisson</span> 1h30min.</li>
+        <li class="home-post__informations-list__item"><span class="home-post__informations-list__item__name">Prix</span> 5€ / pers</li>
+      </ul>
+      <figure class="home-post__thumbnail">
+        <img src="images/sandwich.jpg" alt="" class="home-post__thumbnail__image">
+      </figure>
+      <div class="home-post__excerpt-container">
+        <h3>La recette en résumé</h3>
+        <p class="home-post__excerpt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, minus odit officia dignissimos ut eligendi.</p>
+      </div>
+      <ul class="home-post__ingredients">
+        <li class="home-post__ingredients__item"><a href="#" class="badget badge-pill badge-dark">Salami</a></li>
+        <li class="home-post__ingredients__item"><a href="#" class="badget badge-pill badge-dark">Salade</a></li>
+      </ul>
+      <div class="home-post__read-next-container">
+        <a href="#" class="btn btn-outline-green btn--icon-cutlery">Lire la recette</a>
+      </div>
+      <div class="home-post__type-container">
+        <span class="home-post__footer__type-prefix">Recette visible dans</span> <a class="btn btn-outline-dark" href="#">En cas</a>
+      </div>
+    </article>
+  </main>
+  <aside class="sidebar">
+    <div class="sidebar__name">oCooking</div>
+    <div class="sidebar__baseline">Se faire plaisir tous les jours</div>
+    <div class="sidebar__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium inventore, tenetur nisi sint non, animi exercitationem excepturi at laborum facilis ipsa molestias iste incidunt rerum sed. Sunt dolore, hic exercitationem commodi animi, illum rem provident fuga dignissimos aliquam magni earum sit cupiditate fugiat necessitatibus esse tenetur beatae eligendi consectetur!</div>
+    <nav class="menu menu--vertical">
+      <ul class="menu__list">
+        <li class="menu__list__list-item"><a class="menu__list__list-item__link" href="#">Blog</a></li>
+        <li class="menu__list__list-item">
+          <a class="menu__list__list-item__link" href="#">Types de recettes</a>
+          <ul>
+            <li><a href="#">Plats de résistances</a></li>
+            <li><a href="#">En cas</a></li>
+            <li><a href="#">Petit déjeuner</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <form action="" class="recipe-proposal">
+      <div class="recipe-proposal__title">Proposer une recette</div>
+      <fieldset>
+        <div class="form-group">
+          <label for="title">Recette</label>
+          <input class="form-control" type="text" name="title" id="title" />
+        </div>
+        <div class="form-group">
+          <label for="steps">Instructions</label>
+          <textarea class="form-control" name="steps" id="steps"></textarea>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input class="form-control" type="email" name="email" id="email" />
+        </div>
+        <div class="form-group">
+          <input type="checkbox" name="publish-agreement" id="publish-agreement" />
+          <label class="d-inline" for="publish-agreement">Je suis d'accord pour que cette recette soit publiée sur oCooking</label>
+        </div>
+      </fieldset>
+      <button type="submit" class="btn btn-green">Proposer</button>
+    </form>
+  </aside>
+  <footer class="footer">
+    <div class="footer__text">oCooking par <a class="footer__text__author" href="#">oClock Nova</a>. La meilleure source pour se régaler.</div>
+    <div class="copyright">oCooking 2019</div>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

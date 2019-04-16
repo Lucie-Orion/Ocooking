@@ -1,0 +1,20 @@
+.footer {
+    background-color: $color-background-secondary;
+    grid-area: footer;
+    margin-top: $gutter * 2;
+    padding: $gutter * 5 0;
+    text-align: center;
+
+    &__text {
+        margin-bottom: $gutter;
+
+        &__author {
+            color: $color-primary;
+
+            &:hover {
+                color: $color-primary;
+                text-decoration: underline;
+            }
+        }
+    }
+}

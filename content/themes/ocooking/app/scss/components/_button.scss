@@ -1,0 +1,26 @@
+.btn-green {
+    background-color: $color-primary;
+    color: #FFF;
+
+    &:hover {
+        background-color: darken($color-primary, 5%);
+        color: #FFF;
+    }
+}
+
+.btn-outline-green {
+    border-color: $color-primary;
+    color: $color-primary;
+
+    &:hover {
+        @extend .btn-green;
+    }
+}
+
+.btn--icon-cutlery {
+    &::before {
+        @include fa-icon();
+        content: $fa-var-cutlery;
+        margin-right: $gutter / 2;
+    }
+}
