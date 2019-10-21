@@ -15,6 +15,7 @@ if (
 		[
 			'post_type'      => Post_Type_Recipe::NAME,
 			'posts_per_page' => 1,
+			'lang' => 'fr',
 		]
 	);
 

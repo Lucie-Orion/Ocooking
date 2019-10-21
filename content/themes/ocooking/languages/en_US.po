@@ -1,0 +1,59 @@
+# Copyright (C) 2019 
+# This file is distributed under the same license as the oCooking package.
+msgid ""
+msgstr ""
+"Project-Id-Version: oCooking\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/ocooking\n"
+"POT-Creation-Date: 2019-04-16 09:42:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-04-16 11:46+0200\n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.6\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+
+#: front-page.php:28
+msgid "Préparée par %s"
+msgstr "Prepared by %s"
+
+#: front-page.php:31
+msgid "Préparation"
+msgstr "Preparation"
+
+#. translators: %d contains dynamic time, please translate only minutes
+#. abbreviation
+#: front-page.php:34 front-page.php:38
+msgid "%d min."
+msgstr "%dmin"
+
+#: front-page.php:35
+msgid "Cuisson"
+msgstr "Cooking"
+
+#: front-page.php:39
+msgid "Prix"
+msgstr "Price"
+
+#. translators: %d contains dynamic price, please translate only € / pers.
+#: front-page.php:42
+msgid "%d € / pers."
+msgstr "%d€/pers"
+
+#: front-page.php:48
+msgid "La recette en résumé"
+msgstr "Recipe in resume"
+
+#: front-page.php:53
+msgid "Lire la recette"
+msgstr "Read recipe"
+
+#: front-page.php:56
+msgid "Recette visible dans"
+msgstr "Recipe visible in"
+
+#. Theme Name of the plugin/theme
+msgid "oCooking"
+msgstr "oCooking"

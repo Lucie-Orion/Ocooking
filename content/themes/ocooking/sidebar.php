@@ -7,8 +7,6 @@
 
 ?>
 <aside class="sidebar">
-	<div class="sidebar__name"><?php bloginfo( 'name' ); ?></div>
-	<div class="sidebar__baseline"><?php bloginfo( 'description' ); ?></div>
 	<div class="sidebar__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate accusantium inventore, tenetur nisi sint non, animi exercitationem excepturi at laborum facilis ipsa molestias iste incidunt rerum sed. Sunt dolore, hic exercitationem commodi animi, illum rem provident fuga dignissimos aliquam magni earum sit cupiditate fugiat necessitatibus esse tenetur beatae eligendi consectetur!</div>
 	<nav class="menu menu--vertical">
 		<ul class="menu__list">
